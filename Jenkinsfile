@@ -40,7 +40,7 @@ pipeline {
     stage('Prep') {
       steps {
         checkout scm
-        sh 'pwd && ls -la'
+        sh 'ls -la'
       }
     }
 
